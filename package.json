@@ -1,0 +1,15 @@
+{
+  "name": "my_code_as_project",
+  "version": "1.0.0",
+  "description": "jest EsLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sh Mikhail",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.18.1"
+  }
+}
