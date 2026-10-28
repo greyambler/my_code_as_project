@@ -11,7 +11,7 @@ export default defineConfig([
     languageOptions: { globals: globals.browser },
     rules: {
       ...js.configs.recommended.rules,
-      semi: ['error', 'always'],
+      "semi": ["error", "always"]
     },
   },
   {
@@ -21,8 +21,4 @@ export default defineConfig([
   {
     ignores: ['**/temp.js', 'config/*', '**/*.config.*', '**/*.mjs'],
   },
-
-  // {
-  //   ignores: ['**/temp.js', 'config/*', '**/*.config.*', '**/*.test.js', '**/*.mjs'],
-  // },
 ]);
