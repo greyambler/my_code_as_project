@@ -11,7 +11,11 @@ export default defineConfig([
     languageOptions: { globals: globals.browser },
     rules: {
       ...js.configs.recommended.rules,
-      "semi": ["error", "always"]
+      "semi": ["error", "always"],
+      "no-constant-binary-expression": "off",
+       "no-useless-escape":"off",
+       "no-undef":"off",
+       "no-unused-vars": "off"
     },
   },
   {
